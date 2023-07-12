@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>COVID-19 Vaccination Booking</title>
+    <link rel="stylesheet" href="css/home.css">
+    </head>
+    <body>
+    
+    <form>
+        <h1>COVID-19 Vaccination Booking</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" autocomplete="off" placeholder="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" autocomplete="off" placeholder="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" autocomplete="off" placeholder="(+91 ) 123456789" required>
+
+        <label for="location">Preferred Vaccination Location:</label>
+        <select id="location" required>
+        <option value="">Select Location</option>
+        <option value="location1">chennai</option>
+        <option value="location2">arakonam</option>
+        <option value="location3">thiruvalur</option>
+        </select>
+
+        <label for="date">Preferred Vaccination Date:</label>
+        <input type="date" id="date" required>
+
+        <button type="submit">Book Appointment</button>
+        
+    </form>
+        <button class="logout">log out</button> 
+        <script src="js/home.js"></script>
+
+    </body>
+</html>
